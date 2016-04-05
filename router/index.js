@@ -1,15 +1,15 @@
-import router from 'koa-router';
+import Router from 'koa-router';
 
 import views from './views';
 import users from './users';
 
 export default (app) => {
-  const _router = router();
+  const router = new Router();
 
-  views(app, _router);
   users(app, _router);
+  views(app, router);
 
   app
-    .use(_router.routes())
-    .use(_router.allowedMethods());
+    .use(router.routes())
+    .use(router.allowedMethods())
 };
