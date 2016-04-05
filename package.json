@@ -27,11 +27,14 @@
   },
   "homepage": "https://github.com/kiki-le-singe/learning-koa#readme",
   "dependencies": {
-    "koa": "^2.0.0"
+    "koa": "^2.0.0",
+    "koa-router": "^7.0.1"
   },
   "devDependencies": {
     "babel-cli": "^6.6.5",
     "babel-preset-es2015": "^6.5.0",
-    "babel-preset-stage-0": "^6.5.0"
+    "babel-preset-stage-0": "^6.5.0",
+    "eslint": "^2.7.0",
+    "eslint-config-airbnb": "^6.2.0"
   }
 }
