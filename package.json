@@ -27,8 +27,11 @@
   },
   "homepage": "https://github.com/kiki-le-singe/learning-koa#readme",
   "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
     "koa": "^2.0.0",
-    "koa-router": "^7.0.1"
+    "koa-router": "^7.0.1",
+    "koa-static": "^3.0.0",
+    "lodash": "^4.8.2"
   },
   "devDependencies": {
     "babel-cli": "^6.6.5",
