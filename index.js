@@ -1,9 +1,9 @@
 import Koa from 'koa';
 
+import router from './router';
+
 const app = new Koa();
 
-app.use(ctx => {
-  ctx.body = 'Hello World';
-});
+router(app);
 
 app.listen(3000);
