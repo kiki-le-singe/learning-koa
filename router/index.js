@@ -5,11 +5,16 @@ import users from './users';
 
 export default (app) => {
   const router = new Router();
+  const routerAPI = new Router({
+    prefix: '/api',
+  });
 
-  users(app, _router);
   views(app, router);
+  users(app, routerAPI);
 
   app
     .use(router.routes())
     .use(router.allowedMethods())
+    .use(routerAPI.routes())
+    .use(routerAPI.allowedMethods());
 };
