@@ -20,3 +20,4 @@ $ npm install
 * [koa-router](https://github.com/alexmingoia/koa-router)
 * [koa-router for koa 2.x](https://github.com/alexmingoia/koa-router#koa-2x)
 * [koa-static](https://github.com/koajs/static)
+* [koa-json](https://github.com/koajs/json)
