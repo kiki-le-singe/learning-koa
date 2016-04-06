@@ -11,5 +11,8 @@ export default (app, router) => {
     })
     .get('/contact', (ctx) => {
       ctx.body = 'Contact';
+    })
+    .get('/json', (ctx) => {
+      ctx.body = { foo: 'bar' };
     });
 };
