@@ -27,8 +27,10 @@
   },
   "homepage": "https://github.com/kiki-le-singe/learning-koa#readme",
   "dependencies": {
+    "debug": "^2.2.0",
     "isomorphic-fetch": "^2.2.1",
     "koa": "^2.0.0",
+    "koa-json": "^2.0.0",
     "koa-router": "^7.0.1",
     "koa-static": "^3.0.0",
     "lodash": "^4.8.2"
